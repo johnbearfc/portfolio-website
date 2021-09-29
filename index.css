@@ -28,14 +28,22 @@ nav {
     color: rgb(219, 139, 20);
 }
 
-.navlink:hover {
+.nclink {
+    text-decoration: underline;
+}
+
+.navlink:hover,
+.nclink:hover {
     text-decoration: double;
     color: white;
 }
 
+
 .info {
+    margin-top: 15px;
+    font-weight: 300;
     font-size: 14pt;
-    margin: 0px;
+    letter-spacing: 0em;
 }
 
 .dash {
@@ -43,23 +51,25 @@ nav {
 }
 
 article {
-    margin-top: 20px;
-    width: 50%;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    width: 80%;
+    letter-spacing: 0em;
+}
+
+.a-text {
+    font-weight: 300;
 }
 
 .articlep {
-    font-weight: 300;
-    letter-spacing: 0em;
-    max-width: 50%;
-    max-height: 10em;
-    /* overflow: hidden; */
+    margin: 0;
 }
 
 img {
-    float: right;
-    display: inline;
     max-width: 50%;
-    padding: 3px;
-    clear: left;
     max-height: 10em;
+}
+
+article h3 {
+    margin: 0;
 }
