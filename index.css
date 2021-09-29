@@ -63,6 +63,7 @@ article {
 
 .articlep {
     margin: 0;
+    font-size: 14pt;
 }
 
 img {
@@ -71,5 +72,6 @@ img {
 }
 
 article h3 {
+    font-size: 18pt;
     margin: 0;
 }
