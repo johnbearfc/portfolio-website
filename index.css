@@ -53,7 +53,7 @@ nav {
 article {
     margin-top: 15px;
     margin-bottom: 15px;
-    width: 80%;
+    /* width: 80%; */
     letter-spacing: 0em;
 }
 
@@ -67,8 +67,8 @@ article {
 }
 
 img {
-    max-width: 60%;
-    max-height: 20em;
+    width: 60%;
+    height: 60%;
 }
 
 article h3 {
