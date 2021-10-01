@@ -4,14 +4,16 @@ body {
     padding-top: 40px;
     font-family: 'Teko', sans-serif;
     /* color: #FFF; */
+    color: rgb(38, 38, 38);
     background-color: rgb(240, 237, 233);
     letter-spacing: -0.05em;
 }
 
 .title {
-    font-size: 42pt;
+    font-size: 28pt;
     margin-bottom: 0px;
-    padding-right: 20px;
+    padding: 8px;
+    background-color: white;
 }
 
 a {
@@ -64,6 +66,7 @@ article {
 .articlep {
     margin: 0;
     font-size: 14pt;
+    /* font-family: 'Open Sans', sans-serif; */
 }
 
 img {
@@ -72,6 +75,11 @@ img {
 }
 
 article h3 {
+    /* background-color: white; */
+    /* padding: 5px; */
+    display: inline-block;
+    width: 145px;
+    margin-bottom: 50px;
     font-size: 18pt;
     margin: 0;
 }
